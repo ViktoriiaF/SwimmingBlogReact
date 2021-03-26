@@ -1,0 +1,166 @@
+.title-category{
+    font-size: 50px;
+    color:#002f4b;
+    text-transform:uppercase;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;    
+}
+
+.centre{
+    justify-content: center;
+}
+
+.category-list{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid #42bce5;
+    border-bottom: 2px solid #42bce5;
+}
+
+.category-list ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+      
+}
+
+.category-list ul li{
+    margin-right: 25px;
+    text-decoration: none; 
+}
+
+
+.category-list ul li a{
+    
+    text-decoration: none; 
+}
+
+/* Content */
+
+
+.list-news{
+    display: flex;
+}
+
+.list-news .news {
+    padding: 0 20px;
+    padding-bottom: 20px;
+    
+}
+
+.list-news article img{
+    width: 327px;
+    height: 246px;
+}
+
+.caption{
+    margin: 0 15px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: -25px;
+    padding: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.caption:hover{
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 20%);    
+    transition: all ease-in-out .3s;
+}
+
+.caption .category-news{
+    margin-top: -33px;
+}
+
+.caption .category-news span {
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: left;
+    background: #7fbfc6;
+    color: #fff;
+}
+
+.caption .title-news{
+    font-size: 23px;
+    line-height: 24px;
+    overflow: hidden;
+    color: #42bce5;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+}
+
+.caption .intro-news{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.caption .meta-news{
+    color: #aaaab1;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.caption .sta-news{
+    margin: 0;
+    position: relative;
+    background: #eeeeee
+}
+
+.btn-news .btn-label {
+    height: 42px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.btn-news {
+    border: none;
+    color: #002f4b;
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 10px 50px;
+    padding-left: 20px;
+    text-align: left;
+    display: block;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-news:hover{
+    background: #002f4b;
+    color: #fff;
+}
+
+.btn-lable {
+    display: inline-block;
+    position: absolute;
+    right: -1px;
+    padding: 3px 15px;
+    background: #002f4b;
+    border-radius: 0;
+    color: #fff;
+    top: -1px;
+    text-align: center;
+}
+
+.plus{
+    display: inline-block;
+    font-size: 23px;    
+    font-weight: bold;
+}
